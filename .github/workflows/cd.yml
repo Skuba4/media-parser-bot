@@ -18,6 +18,7 @@ jobs:
           script: |
             cd /home/deploy/media-parser-bot
             git pull
-            docker stop bot_vps 
+            docker stop bot_vps
+            docker rmi bot
             docker build -t bot .
             docker run -d --rm --name bot_vps bot   
