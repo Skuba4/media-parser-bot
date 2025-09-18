@@ -19,4 +19,4 @@ jobs:
             cd /home/deploy/media-parser-bot
             git pull
             docker build -t bot .
-            docker run -d --rm --name bot bot_vps   
+            docker run -d --rm --name bot_vps bot   
