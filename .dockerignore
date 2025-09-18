@@ -9,9 +9,6 @@ __pycache__/
 .venv/
 .idea/
 
-.env
-.env.example
-
 .github/
 downloads/
 
