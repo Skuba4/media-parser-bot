@@ -55,4 +55,4 @@ async def link_handler(message: Message, state: FSMContext):
 @router.message(F.text)
 async def other_handler(message: Message, state: FSMContext):
     if await state.get_state():
-        await message.answer("Моя-Твоя не понимать (тест текста_1)")
+        await message.answer("Моя-Твоя не понимать (тест текста_2)")
